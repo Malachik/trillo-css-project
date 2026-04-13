@@ -1,0 +1,17 @@
+{
+  "name": "trillo",
+  "version": "1.0.0",
+  "description": "Landing page for trillo",
+  "license": "ISC",
+  "author": "Patrick",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:sass",
+    "watch:sass": "sass --watch sass/main.scss:css/style.css",
+    "build:sass": "sass sass/main.scss css/style.css --style=compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.99.0"
+  }
+}
